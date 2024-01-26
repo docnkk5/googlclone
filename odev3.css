@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.kutu{
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    position: absolute;
+    width: 1000px ;
+    height: 250px;
+    justify-content: center;
+    align-items: center;    
+    margin-right: auto;
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-bottom: auto;
+    z-index: -2;
+    
+    
+}
+.btn2{
+    display: inline-flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 20px 20px 20px 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    float: inline-start;
+    left: -260px;
+    top: 70px;
+
+}
+.yazı{
+    display: inline;
+    position: relative;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    float: inline-start;
+    
+}
+.logo{
+    display: flex ;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 200px;
+    z-index: 1;
+    position: relative;
+    right: -70px;
+}
